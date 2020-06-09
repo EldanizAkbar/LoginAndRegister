@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script>
+        let lg = sessionStorage["login"];
+        if (lg == null || lg == undefined) {
+            document.location.href = "login.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="container ">
+        <h1 id="message">Welcome to Dashboard, Dear <em id="user_name"></em> <em id="user_surname"></em></h1>
+    </div>
+    
+    
+
+    <script>
+        let obj= JSON.parse(sessionStorage["user"]);
+        document.getElementById("user_name").innerText = obj.name;
+        document.getElementById("user_surname").innerText = obj.surname;
+    </script>
+    <br>
+    <br>
+    <hr style="border: 0.2px solid;">
+
+
+    <div class="container  justify-content-center mt-100 mb-5 pb-5 ">
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-6  col-lg-4">
+            <div class="card" id="card">
+                <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                        class="img-fluid rounded" width="260" height="310">
+                    <h5 class="card-title mt-4 mb-3" id="curd">Dağ Balı</h5> <span
+                        class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                        <br><br>
+                        <br><br>
+                        <ul class="list-group list-group-flush">
+                          <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6  col-lg-4">
+          <div class="card" id="card">
+              <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                      class="img-fluid rounded" width="260" height="310">
+                  <h5 class="card-title mt-4 mb-3" id="curd">Ari Balı</h5> <span
+                      class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                      <br><br>
+                      <br><br>
+                      <ul class="list-group list-group-flush">
+                        <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                      </ul>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-6  col-lg-4">
+        <div class="card" id="card">
+            <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                    class="img-fluid rounded" width="260" height="310">
+                <h5 class="card-title mt-4 mb-3" id="curd">Ari Südü</h5> <span
+                    class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                    <br><br>
+                    <br><br>
+                    <ul class="list-group list-group-flush">
+                      <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-6 col-md-6  col-lg-4">
+          <div class="card" id="card">
+              <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                      class="img-fluid rounded" width="260" height="310">
+                  <h5 class="card-title mt-4 mb-3" id="curd">Cökə Balı</h5> <span
+                      class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                      <br><br>
+                      <br><br>
+                      <ul class="list-group list-group-flush">
+                        <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                      </ul>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-6  col-lg-4">
+        <div class="card" id="card">
+            <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                    class="img-fluid rounded" width="260" height="310">
+                <h5 class="card-title mt-4 mb-3" id="curd">May Balı</h5> <span
+                    class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                    <br><br>
+                    <br><br>
+                    <ul class="list-group list-group-flush">
+                      <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6  col-lg-4">
+      <div class="card" id="card">
+          <div class="card-body text-center"> <img src="photos/Organik-Munzur-Dag-Bali-500-gr-resim-226.jpg"
+                  class="img-fluid rounded" width="260" height="310">
+              <h5 class="card-title mt-4 mb-3" id="curd">Bakı Balı</h5> <span
+                  class="cost mb-5 font-weight-bold">16.99 AZN</span>
+                  <br><br>
+                  <br><br>
+                  <ul class="list-group list-group-flush">
+                    <li class="brand list-group-item" style="border-top: 1px solid grey;">Mr-Bee</li>
+                  </ul>
+          </div>
+      </div>
+  </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+</body>
+</html>

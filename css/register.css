@@ -1,0 +1,99 @@
+
+.contact {
+    padding: 4%;
+    
+}
+.ap {
+    font-family: 'Open Sans', sans-serif;
+}
+.col-md-9 {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    font-weight: 600;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+#fname {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#lname {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#email {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+
+#password {
+    padding: 4.5%;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+}
+.so{
+    margin-top: 50px;
+}
+
+.form-group.success input {
+    border: 1px solid green;
+    box-shadow: 0 0 5px green;
+}
+.form-group.error input {
+    border: 1px solid #e74c3c;
+    box-shadow: 0 0 5px #e74c3c;
+	
+}
+.form-group i.fa-check-circle {
+	visibility: hidden;
+	position: relative;
+    left: 990px;
+    top: -55px;
+}
+.form-group i.fa-exclamation-circle {
+	visibility: hidden;
+	position: relative;
+    left: 973px;
+    top: -55px;
+}
+
+.form-group.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+.form-group.error i.fa-exclamation-circle {
+
+	color: #e74c3c;
+	visibility: visible;
+}
+.form-group small {
+	color: #e74c3c;
+	position: absolute;
+	left: 5;
+	visibility: hidden;
+}
+.form-group.error small {
+	visibility: visible;
+}
+.sut{
+    border: none;
+}
